@@ -1,6 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -18,5 +23,5 @@ li {
 }
 
 $titles: #6458FF;
-$font-stack:  'Montserrat' ,sans-serif;
+//$font-stack: 'Montserrat', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');

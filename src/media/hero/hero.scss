@@ -1,0 +1,39 @@
+@media (max-width: 1024px) {
+  #hero{
+    height: 650px;
+    width: 100%;
+  }
+  #hero .hero-title {
+    font-size: 76px;
+  }
+  #hero .hero-desc {
+    font-size: 17px;
+  }
+}
+@media (max-width: 768px) {
+  #hero{
+    height: 550px;
+  }
+  #hero .hero-title {
+    font-size: 46px;
+    margin-top: -100px;
+  }
+  #hero .hero-desc {
+    font-size: 14px;
+    width: 500px;
+  }
+}
+@media (max-width: 426px) {
+  #hero{
+    height: 600px;
+  }
+
+  #hero .hero-title {
+    font-size: 28px;
+    margin-top: 80px;
+  }
+  #hero .hero-desc {
+    font-size: 10px;
+    width: 300px;
+  }
+}

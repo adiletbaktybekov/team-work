@@ -4,9 +4,9 @@ $font-stack: 'Montserrat' ,sans-serif;
 
 #hero {
   width: 100%;
-  height: 800px;
+  height: 720px;
   padding-top: 200px;
-  background: url("../../assets/img/bg.png") center/cover;
+  background: url("../../assets/img/bg.png") center/cover fixed;
   .hero {
     display: flex;
     flex-direction: column;
@@ -21,17 +21,14 @@ $font-stack: 'Montserrat' ,sans-serif;
       color: $titles;
     }
     &-desc{
-      font-family:$font-stack;
       font-weight: 400;
       font-size: 20px;
-      line-height: 24px;
+      width: 800px;
       text-align: center;
-
       color: #FFFFFF;
-
     }
     &-btn {
-
+      margin-top: 20px;
     }
   }
 }

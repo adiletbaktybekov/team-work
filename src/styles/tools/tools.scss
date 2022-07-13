@@ -1,0 +1,95 @@
+#tools {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .radio {
+    opacity: 0;
+  }
+
+  .tech {
+    display: flex;
+    padding-top: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    &-name {
+      margin: 0 30px;
+      font-style: normal;
+      cursor: pointer;
+      font-weight: 400;
+      font-size: 25px;
+      color: #000000;
+    }
+
+    &-name:active {
+      color: #6458FF;
+    }
+  }
+
+  .tools {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+
+    &-title {
+      font-weight: 500;
+      font-size: 20px;
+      color: #6458FF;
+      text-align: center;
+    }
+
+    &-title1 {
+      font-weight: 700;
+      font-size: 40px;
+      color: #000000;
+      text-align: center;
+    }
+  }
+
+  .tool {
+    &-div {
+      background:#000000;
+      margin: 15px 25px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      width:100px;
+      height: 100px;
+
+      justify-content: center;
+      align-items: center;
+    }
+    display: flex;
+    //flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &-logo {
+      width: 50px;
+      color: #6458FF;
+      //margin: 0 25px;
+      height: 50px;
+    }
+    &-name {
+      text-align: center;
+      color: white;
+    }
+  }
+
+  #design:checked ~ .content-1,
+  #design:checked ~ .content-3 {
+    display: none;
+  }
+
+  #front:checked ~ .content-1,
+  #front:checked ~ .content-2 {
+    display: none;
+  }
+
+  #all:checked ~ .content-1,
+  #all:checked ~ .content-2,
+  #all:checked ~ .content-3 {
+    display: block;
+  }
+}
